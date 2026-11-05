@@ -1,7 +1,29 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.RoomBooking" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#A8C8FF</item>
+        <item name="colorOnPrimary">#003062</item>
+        <item name="colorPrimaryContainer">#0F4689</item>
+        <item name="colorOnPrimaryContainer">#D6E3FF</item>
+        <item name="colorSecondary">#BDC7DC</item>
+        <item name="colorOnSecondary">#273141</item>
+        <item name="colorSecondaryContainer">#3E4758</item>
+        <item name="colorOnSecondaryContainer">#D9E3F8</item>
+        <item name="android:colorBackground">#111318</item>
+        <item name="colorOnBackground">#E2E2E9</item>
+        <item name="colorSurface">#111318</item>
+        <item name="colorOnSurface">#E2E2E9</item>
+        <item name="colorSurfaceVariant">#43474E</item>
+        <item name="colorOnSurfaceVariant">#C4C6D0</item>
+        <item name="colorOutline">#8E9099</item>
+        <item name="colorOutlineVariant">#43474E</item>
+        <item name="colorSurfaceContainerLowest">#0C0E13</item>
+        <item name="colorSurfaceContainerLow">#191C20</item>
+        <item name="colorSurfaceContainer">#1D2024</item>
+        <item name="colorSurfaceContainerHigh">#282A2F</item>
+        <item name="colorSurfaceContainerHighest">#33353A</item>
+        <item name="colorError">#FFB4AB</item>
+        <item name="colorOnError">#690005</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>

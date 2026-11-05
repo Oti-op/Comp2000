@@ -1,9 +1,44 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.RoomBooking" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#2B5EA7</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#D6E3FF</item>
+        <item name="colorOnPrimaryContainer">#001B3E</item>
+        <item name="colorSecondary">#555F71</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#D9E3F8</item>
+        <item name="colorOnSecondaryContainer">#121C2B</item>
+        <item name="android:colorBackground">#F9F9FF</item>
+        <item name="colorOnBackground">#191C20</item>
+        <item name="colorSurface">#F9F9FF</item>
+        <item name="colorOnSurface">#191C20</item>
+        <item name="colorSurfaceVariant">#E0E2EC</item>
+        <item name="colorOnSurfaceVariant">#43474E</item>
+        <item name="colorOutline">#74777F</item>
+        <item name="colorOutlineVariant">#C4C6D0</item>
+        <item name="colorSurfaceContainerLowest">#FFFFFF</item>
+        <item name="colorSurfaceContainerLow">#F3F3FA</item>
+        <item name="colorSurfaceContainer">#EDEDF4</item>
+        <item name="colorSurfaceContainerHigh">#E7E8EE</item>
+        <item name="colorSurfaceContainerHighest">#E2E2E9</item>
+        <item name="colorError">#BA1A1A</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
-    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+    <style name="Theme.RoomBooking" parent="Base.Theme.RoomBooking" />
+
+    <!-- Status label used on room and booking cards -->
+    <style name="Widget.RoomBooking.StatusPill" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:background">@drawable/bg_status</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelLarge</item>
+    </style>
 </resources>

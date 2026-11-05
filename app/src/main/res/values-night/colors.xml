@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_ok_bg">#1E4D2B</color>
+    <color name="status_ok_fg">#C3EFCB</color>
+    <color name="status_wait_bg">#5C4300</color>
+    <color name="status_wait_fg">#FFE0A3</color>
+    <color name="status_neutral_bg">#3A3A40</color>
+    <color name="status_neutral_fg">#E3E3E8</color>
+</resources>

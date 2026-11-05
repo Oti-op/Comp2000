@@ -1,3 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Room Booking</string>
+
+    <!-- S1 Sign in -->
+    <string name="sign_in_subtitle">Sign in with your work account</string>
+    <string name="email">Work email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_note">Employees and managers use the same sign-in. You\'ll see the screens for your role.</string>
+    <string name="error_email">Enter your work email, like name@company.com</string>
+    <string name="error_password">Enter your password</string>
+
+    <!-- Navigation and toolbar -->
+    <string name="nav_find">Find a room</string>
+    <string name="nav_bookings">My bookings</string>
+    <string name="title_available">Available rooms</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_out_confirm">Sign out of Room Booking?</string>
+
+    <!-- E1 Find a room -->
+    <string name="next_free_slot">Next free slot</string>
+    <string name="slot_hint">Tap the date or a time to change it</string>
+    <string name="date">Date</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="people">People</string>
+    <string name="room_type">Room type</string>
+    <string name="type_any">Any</string>
+    <string name="type_meeting">Meeting</string>
+    <string name="type_seminar">Seminar</string>
+    <string name="search">Search</string>
+    <string name="fewer_people">Fewer people</string>
+    <string name="more_people">More people</string>
+    <string name="pick_date">Choose a date</string>
+    <string name="pick_start">Start time</string>
+    <string name="pick_end">End time</string>
+    <string name="error_start_past">That time has already passed</string>
+    <string name="error_end_before_start">End time must be after the start</string>
+
+    <!-- E2 Available rooms -->
+    <string name="time_range">%1$s, %2$s–%3$s</string>
+    <string name="search_summary">%1$s, %2$s</string>
+    <string name="edit">Edit</string>
+    <string name="edit_search_cd">Edit search</string>
+    <string name="status_free">Free</string>
+    <string name="room_card_cd">%1$s, %2$s, free. Double tap to request.</string>
+    <string name="no_rooms">No rooms are free at this time. Try another time, or fewer people.</string>
+    <string name="change_search">Change search</string>
+
+    <!-- E3 Request dialog -->
+    <string name="request_title">Send a booking request?</string>
+    <string name="request_message">%1$s\n%2$s, %3$s\n\nThe room isn\'t booked until a manager approves it. It\'s held for you until then.</string>
+    <string name="send_request">Send request</string>
+    <string name="cancel">Cancel</string>
+    <string name="undo">Undo</string>
+    <string name="request_sent">Request sent. You\'ll be notified when a manager decides.</string>
+
+    <!-- E4 My bookings -->
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_past">Past</string>
+    <string name="status_waiting">Waiting for approval</string>
+    <string name="status_approved">Approved</string>
+    <string name="status_cancel_requested">Cancellation requested</string>
+    <string name="status_completed">Completed</string>
+    <string name="note_waiting">You\'ll get a notification when a manager decides.</string>
+    <string name="note_cancel_requested">A manager will confirm the cancellation.</string>
+    <string name="cancel_booking_cd">Cancel booking for %1$s</string>
+    <string name="empty_upcoming">No upcoming bookings yet.</string>
+    <string name="empty_past">No past bookings.</string>
+
+    <!-- E5 Cancel dialog -->
+    <string name="cancel_request_title">Cancel this request?</string>
+    <string name="cancel_request_message">%1$s\n%2$s\n\nIt hasn\'t been approved yet, so it will be cancelled straight away.</string>
+    <string name="cancel_request_confirm">Cancel request</string>
+    <string name="keep_request">Keep request</string>
+    <string name="ask_cancel_title">Ask to cancel this booking?</string>
+    <string name="ask_cancel_message">%1$s\n%2$s\n\nIt\'s already approved, so a manager confirms the cancellation. You\'ll be notified.</string>
+    <string name="ask_cancel_confirm">Ask to cancel</string>
+    <string name="keep_booking">Keep booking</string>
+    <string name="request_cancelled">Request cancelled</string>
+    <string name="cancel_sent">Cancellation sent to a manager</string>
+
+    <plurals name="people_count">
+        <item quantity="one">%d person</item>
+        <item quantity="other">%d people</item>
+    </plurals>
+    <plurals name="up_to_people">
+        <item quantity="one">Up to %d person</item>
+        <item quantity="other">Up to %d people</item>
+    </plurals>
 </resources>
