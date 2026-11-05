@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Columns and side padding change with screen width, so the same lists fill phones, landscape and tablets. -->
+<resources>
+    <integer name="room_columns">2</integer>
+    <integer name="booking_columns">2</integer>
+    <dimen name="screen_padding">24dp</dimen>
+</resources>
